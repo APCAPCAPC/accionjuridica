@@ -1,0 +1,38 @@
+.slider img{
+    width: 84%;
+    height: 500px;
+    position: absolute;
+    opacity: 0;
+    margin-left: 5%;
+}
+.slider{
+    background-color: white;
+    height: 80%;
+    width: 100%;
+}
+.slider #img_1{
+    opacity: 1;
+}
+a {
+    z-index: 99999;
+}        
+.slider_links{
+    z-index: 99999;
+    position: absolute;
+    margin-left:50%; 
+    padding-top: 42%;
+    transform: translateX(-50%);
+}
+.slider_links img{
+    height: 20px;
+    width: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.slider_links img:hover{
+    lighting-color: red;
+}
+.point{
+    background-image: url("oval.png");
+    background-color: red
+}
